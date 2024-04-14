@@ -29,40 +29,46 @@
 
     </div>
 
-    <div class="container_singIn">
+    <div class="container_singIn" id="titleSing">
         <img src="src/img/arrow.png">
         <p>Sing in to your account</p>
     </div>
 
+    <div class="container_passed" id="titlepassed">
+        <p>University entrance<br>examination results</p>
+        <p></p>
+    </div>
+
+    
+
     <div class="login">
         <div class="input-container">
-            
             <input type="text" id="username" name="username" placeholder="Username">
         </div>
         
         <div class="input-container">
-            
             <input type="password" id="password" name="password" placeholder="Password">
         </div>
-
-        <div class="login-btn">
-            <input type="button" value="Login" class="button">
+    
+        <div id="login-btn">
+            <input type="button" value="Login" class="button" onclick="toggleVisibility()">
         </div>
-
-        <p>Forgot password?</p>
-
-    </div>
     
-
-    <div class="language">
-        <p>
-            Select a language <span class="barra"></span> <span class="color">English</span> 
-        </p>
-        
+        <p id="forgot-password">Forgot password?</p>
     </div>
     
     
+
+    <div class="language" id="selectLan">
+        <p >Select a language <span class="barra"></span> <span class="color">English</span> </p> 
+    </div>
+
+    <div id="image-container">
+        <img src="src/img/passed.png" alt="Imagem">
+    </div>
     
-    <script src="meuscript.js"></script>
+    
+    
+    <script src="main.js"></script>
 </body>
 </html>

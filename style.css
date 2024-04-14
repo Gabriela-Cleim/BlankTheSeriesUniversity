@@ -59,6 +59,19 @@ body{
     
 }
 
+.container_passed{
+    margin: 0 auto; /* Centraliza horizontalmente o .container_singIn */
+    text-align: center; /* Centraliza os itens dentro do .container_singIn */
+}
+
+#titlepassed {
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    display: none; /* Exibe o texto em uma nova linha */
+    margin-top: 20px; /* Adicione um espaçamento superior para separar a imagem do texto */
+    
+}
+
 .login {
     margin: 0 auto; /* Centraliza horizontalmente o .login */
     text-align: center; /* Centraliza os itens dentro do .login */
@@ -154,4 +167,13 @@ body{
 
   
 
-  
+#image-container {
+    display: none;
+    text-align: center; /* Alinhar a imagem ao centro */
+}
+
+/* Estilo para a imagem */
+#image-container img {
+    max-width: 500px; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 500px; /* Garante que a imagem não ultrapasse a altura da div */
+}

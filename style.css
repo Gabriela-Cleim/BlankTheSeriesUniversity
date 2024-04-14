@@ -1,0 +1,157 @@
+body{
+    background-color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.logo img{
+    width: 80px; /* Defina o tamanho horizontal do logotipo */
+    height: auto; /* Mantém a proporção original do logotipo */
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.h1{
+    padding-left: 20px;
+    padding-top: 35px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+.container1 img {
+    width: 450px; /* Define a largura da imagem como 100% do contêiner */
+    height: 550px; /* Mantém a proporção original da imagem */
+    position: fixed; /* Fixa a imagem na posição especificada */
+    bottom: 0; /* Coloca a imagem no rodapé */
+    left: 0; /* Coloca a imagem no canto esquerdo */
+    padding-left: 20px;
+}
+
+.container2 img {
+    width: 550px; /* Define a largura da imagem como 100% do contêiner */
+    height: 600px; /* Mantém a proporção original da imagem */
+    position: fixed; /* Fixa a imagem na posição especificada */
+    bottom: 0; /* Coloca a imagem no rodapé */
+    right: 0; /* Coloca a imagem no canto esquerdo */
+    padding-right: 10px;
+}
+
+.container_singIn {
+    margin: 0 auto; /* Centraliza horizontalmente o .container_singIn */
+    text-align: center; /* Centraliza os itens dentro do .container_singIn */
+}
+
+.container_singIn img {
+    width: 80px; /* Defina a largura desejada para a imagem */
+    height: 80px; /* Defina a altura desejada para a imagem */
+    display: block; /* Exibe a imagem em uma nova linha */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
+}
+
+.container_singIn p {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    display: block; /* Exibe o texto em uma nova linha */
+    margin-top: 20px; /* Adicione um espaçamento superior para separar a imagem do texto */
+    
+}
+
+.login {
+    margin: 0 auto; /* Centraliza horizontalmente o .login */
+    text-align: center; /* Centraliza os itens dentro do .login */
+    margin-top: 80px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    height: 60px;
+    padding-left: 55px; /* Espaço à esquerda do ícone */
+    width: calc(25% - 50px); /* Largura do input menos o espaço para os ícones */
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    border: 3px solid #ccc; /* Adiciona uma borda cinza claro */
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+    background-color: #f9f9f9; /* Define a cor de fundo do input */
+    background-image: url('src/img/icone-usuario.png'); /* Adiciona o ícone como imagem de fundo */
+    background-repeat: no-repeat;
+    background-position: 15px center; /* Posiciona o ícone à esquerda e centralizado verticalmente */
+    background-size: 30px; /* Define o tamanho do ícone */
+}
+
+
+
+#password {
+    background-image: url('src/img/icone-senha.png'); /* Adiciona o ícone de senha como imagem de fundo */
+}
+
+
+
+
+
+
+
+
+.button {
+    width: 490px; /* Defina a largura desejada */
+    height: 50px; /* Defina a altura desejada */
+    background-color: #f9f9f9;
+    border: 3px solid #ccc; /* Adiciona uma borda cinza claro */
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    
+}
+
+.login p{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 715px;
+}
+
+
+
+
+
+
+
+.barra {
+    display: inline-block;
+    width: 1px; /* largura da barra */
+    height: 0.8em; /* altura da barra */
+    border-left: 1px solid black; /* estilo da borda esquerda */
+    margin: 0 0.5em; /* espaçamento horizontal */
+    color: #564A60;
+}
+
+.color {
+    color: #564A60;
+}
+
+.language{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; /* ou margin-left: auto; margin-right: auto; */
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.language p{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+  
+
+  
